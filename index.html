@@ -72,5 +72,19 @@
       </tr>
       <!-- Tambahkan baris lainnya sesuai dengan data jadwal kuliah -->
     </table>
+    <!-- Formulir Kontak -->
+    <h2>Formulir Kontak</h2>
+    <form action="submit_form.php" method="post">
+      <label for="name">Nama Lengkap:</label>
+      <input type="text" id="name" name="fullname" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <textarea id="email" id="email" name="emailaddr" rows="3" required></textarea><br /><br />
+
+      <label for="message">Pesan:</label>
+      <textarea id="message" name="usermessage" rows="3" required></textarea><br /><br />
+
+      <button type="submit">Kirim</button>
+    </form>
   </body>
 </html>
